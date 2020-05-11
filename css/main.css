@@ -1,0 +1,396 @@
+
+
+/*****---------- 1.1 Fonts ----------*****/
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700&display=swap');
+/* font-family: 'Josefin Sans', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+button:focus {
+    outline: none;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    background: linear-gradient(0deg,#1b1b1b,#222,#1b1b1b);
+    color: #ddd;
+    /* overflow: hidden; */
+}
+
+.protfolio {
+    height: auto !important;
+    padding: 60px 0px;
+}
+
+.menu-active a {
+    color: #f44336 !important;
+    transition:0.5s;
+}
+
+.menu-active i {
+    color: #f44336 !important;
+}
+
+.mobile-menu{
+        display: none;
+    }
+.primary-title {
+    font-size: 47px;
+    letter-spacing: 1px;
+    color: #F44336;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: unset;
+    margin-bottom: 30px;
+}
+
+/* Code */
+.main-navigation {
+    position: fixed;
+    float: left;
+    width: 8%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #181818;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.main-content {
+    float: right;
+    clear: both;
+    width: 90%;
+}
+
+
+.main-navigation a {
+    color: #4d4d4e;
+}
+
+.main-navigation span {
+    display: none;
+}
+
+.main-menu i {
+    font-size: 26px;
+    margin: 15px 0px;
+}
+
+.home-logo a {
+    color: #ddd;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.main-navigation span {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 25px 0px;
+    display: block;
+    transition: 0.4s all ease-in-out;
+}
+
+.main-navigation span:hover {
+    color: #F44336;
+}
+
+
+.social-link i {
+    font-size: 18px;
+    margin: 5px 0px;
+    transition: 0.4s all ease-in-out;
+}
+
+.social-link i:hover {
+    color: #F44336;
+}
+
+
+
+.intro p {
+    font-size: 12px;
+    color: #7e7e82;
+    letter-spacing: 3px;
+    line-height: 50px;
+    margin-bottom: 3em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.intro a {
+    color: #ccc;
+    border: 1px solid #F44336;
+    padding: 8px 30px;
+    transition: 0.4s all ease-in-out;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.intro a:hover {
+    color: #F44336;
+    border: 1px solid #F44336;
+}
+
+.intro span {
+    color: #F44336;
+}
+
+
+.intro h1 {
+    font-size: 47px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+.my-poto {
+    position: relative;
+    width: 250px;
+    height: 250px;
+}
+
+.my-poto img {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    border: 10px solid #f44336;
+}
+
+.my-poto img {
+    position: relative;
+    transition: 0.5s;
+}
+
+.my-poto:after {content: '';position: absolute;left: 0;top: 0;height: 100%;width: 100%;background: #000;opacity: 0.3;border-radius: 50%;}
+
+/* 
+.my-poto:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #000000;
+    opacity: 0.4;
+} */
+
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section p {
+    font-size: 14px;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    width: 80%;
+    color: #9E9E9E;
+    margin-bottom: 5em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* ll */
+.contactBox input[type="email"],
+.contactBox input[type="text"],
+.contactBox input[type="tel"],
+textarea {
+    background: #2b2b2b;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+    outline: none;
+}
+
+.contactBox textarea {
+    resize: none;
+    height: 120px;
+}
+
+.contactBox input[type="submit"] {
+    display: inline-block;
+    background: transparent;
+    border-radius: 0px;
+    color: #ccc;
+    border: 1px solid #F44336;
+    padding: 8px 30px;
+    transition: 0.4s all ease-in-out;
+    font-size: 16px;
+    font-weight: 300;
+    width: 130px;
+    letter-spacing: 2px;
+
+}
+.contactBox input[type="submit"]:hover{
+    color: #F44336;
+}
+
+
+
+
+/* pp */
+/* Protfolio */
+.protfolioMenu{
+    text-align: center;
+}
+.protfolioMenu button{
+    background: transparent;
+    border: 0;
+    color: #999;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.3s;
+    outline: none;
+    margin-left: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+
+
+}
+.protfolioMenu button:hover{
+    color: #f44336;
+}
+.protfolio-item{
+    margin-top: 34px;
+    position: relative;
+    height: 230px;
+    width: 100%;
+}
+
+.protfolio-item img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.mixitup-control-active{
+    color: #f44336;
+}
+
+.protfolio-item-hover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background: #ff000087;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    visibility: hidden;
+    opacity: 0;
+}
+.protfolio-item-hover i{
+    font-size: 24px;
+    color: #f3f3f3;
+    cursor: pointer;
+}
+.protfolio-item:hover .protfolio-item-hover{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+/* skill */
+.skills {
+    padding: 30px;
+    box-shadow: 0 0 10px #0000004a;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.skill {
+    margin-bottom: 30px;
+}
+
+.skill h4 {
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.progress {
+    border-radius: 0;
+    height: 5px;
+}
+
+.skill span {
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+.progress-bar {
+    background: #F44336;
+}
+
+
+.main-content {
+  scroll-snap-type: y mandatory;
+}
+
+/* pp */
+
+
+
+
+
+
+
+
