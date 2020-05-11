@@ -163,31 +163,31 @@
         display: none;
     }
 
-    .intro {
-        height: calc(60vh - 120px);
+    /* .intro {
+        height: calc(60vh - 120px); */
 
 
-    }
+}
 
-    .intro h1 {
-        font-size: 38px;
+.intro h1 {
+    font-size: 38px;
 
-    }
+}
 
-    .home-logo {
+.home-logo {
 
 
-        /*  .primary-title {
+    /*  .primary-title {
         text-align: center;
     } */
 
-        section p {
-            width: 100%;
-            text-align: left;
-        }
-
-        .protfolioMenu button {
-            margin: 5px;
-            font-size: 12px;
-        }
+    section p {
+        width: 100%;
+        text-align: left;
     }
+
+    .protfolioMenu button {
+        margin: 5px;
+        font-size: 12px;
+    }
+}
