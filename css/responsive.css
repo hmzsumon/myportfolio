@@ -1,14 +1,13 @@
 .slicknav_menu {
-	display:none;
+    display: none;
 }
 
 
-@media screen and (max-width: 1100px) {
-	
-} 
+@media screen and (max-width: 1100px) {}
+
 @media screen and (max-width: 991px) {
     body {
-    overflow: unset;
+        overflow: unset;
     }
 
     .main-navigation {
@@ -18,10 +17,12 @@
     .home-logo a {
         font-size: 12px;
     }
+
     .card-box {
-     margin-top: 88px;
+        margin-top: 88px;
     }
-    section p{
+
+    section p {
         width: 100% !important;
     }
 
@@ -29,9 +30,10 @@
 
 
 @media screen and (max-width: 767px) {
-    .mobile-menu-fixed{
+    .mobile-menu-fixed {
         position: fixed;
     }
+
     .main-navigation {
         float: none;
         display: unset;
@@ -42,6 +44,7 @@
         flex-direction: row;
         padding: 0;
     }
+
 
     .main-menu {
         margin: 0;
@@ -83,7 +86,7 @@
 
     section {
         padding: 60px 0px;
-        height:auto;
+        height: auto;
     }
 
     .intro {
@@ -91,45 +94,52 @@
         /* margin-top: 80px; */
         padding: 0;
     }
+
     .main-content {
         width: 100%;
     }
-    .contactBox, .card-box {
+
+    .contactBox,
+    .card-box {
         text-align: center;
     }
 
 }
+
 @media screen and (max-width: 575px) {
-    .main-navigation span{
-         margin: 0 3px !important;
-        }
+    .main-navigation span {
+        margin: 0 3px !important;
+    }
+
     .main-menu {
         display: none;
-	}
-	.mobile-menu{
-		display: block;
-	}
+    }
 
-	.mobile-menu ul {
-	    display: flex;
-	    justify-content: space-around;
-	}
+    .mobile-menu {
+        display: block;
+    }
 
-	.mobile-menu {
-	    width: 100%;
-	    background: #18181899;
-	}
+    .mobile-menu ul {
+        display: flex;
+        justify-content: space-around;
+    }
 
-	.menu-item i {
-	    font-size: 21px;
-	    color: #4d4d4e;
-	    padding: 10px 0px;
-	    transition: 0.4s all;
-	}
+    .mobile-menu {
+        width: 100%;
+        background: #18181899;
+    }
 
-	.menu-item i:hover {
-	    color: #f44336;
-	}
+    .menu-item i {
+        font-size: 21px;
+        color: #4d4d4e;
+        padding: 10px 0px;
+        transition: 0.4s all;
+    }
+
+    .menu-item i:hover {
+        color: #f44336;
+    }
+
     .sticky {
         position: fixed;
         top: 0;
@@ -137,35 +147,47 @@
         background: #000;
         transition: 0.5s;
     }
+
     #about {
         height: 100vh;
     }
 
     .main-navigation a {
-    margin-left: 10px;
-}
+        margin-left: 10px;
+    }
 
 }
 
 @media screen and (max-width: 400px) {
-    .hide{
+    .hide {
         display: none;
     }
-    .home-logo {
-    
 
-   /*  .primary-title {
+    .intro {
+        height: calc(60vh - 120px);
+
+
+    }
+
+    .intro h1 {
+        font-size: 38px;
+
+    }
+
+    .home-logo {
+
+
+        /*  .primary-title {
         text-align: center;
     } */
 
-    section p {
-        width: 100%;
-        text-align: left;
-    }
+        section p {
+            width: 100%;
+            text-align: left;
+        }
 
-    .protfolioMenu button {
-        margin: 5px;
-        font-size: 12px;
+        .protfolioMenu button {
+            margin: 5px;
+            font-size: 12px;
+        }
     }
- }
-
